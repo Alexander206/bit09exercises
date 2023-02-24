@@ -1,0 +1,47 @@
+.containerHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80vw;
+    max-width: 40rem;
+    height: 70vh;
+    border-radius: 2rem;
+
+    transition: 0.2s;
+
+    h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        color: var(--oscuro);
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 1rem;
+
+        img {
+            width: 70%;
+            border-radius: 50%;
+            box-shadow: 0 0 6px var(--cafe);
+        }
+
+        figcaption {
+            text-align: center;
+            font-size: 1.4rem;
+
+            margin-top: 2rem;
+        }
+    }
+}
+
+.containerHome:hover {
+    box-shadow: 0 0 1.5rem var(--gris);
+    cursor: pointer;
+    transition: 0.2s;
+}

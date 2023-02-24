@@ -1,0 +1,24 @@
+.api {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 90%;
+
+    button {
+        width: auto;
+        font-size: 1.6rem;
+        border-radius: 1rem;
+    }
+
+    figure {
+        width: 90%;
+        border-radius: 2rem;
+        margin: 1rem 0;
+
+        img {
+            width: 100%;
+        }
+    }
+}
